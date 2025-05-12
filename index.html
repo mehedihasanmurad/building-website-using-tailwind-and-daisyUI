@@ -14,6 +14,10 @@
         .bg-btn {
             background-color: rgba(171, 239, 95, 0.5);
         }
+
+        body {
+            background-image: ;
+        }
     </style>
 </head>
 <body>
@@ -333,7 +337,7 @@
             <!-- Card Section -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl mt-10 mx-auto">
                 <!-- card 1 -->
-                <div class="card bg-base-100 w-96 shadow-sm pt-7 pb-2">
+                <div class="card bg-base-100 lg:w-96 shadow-sm pt-7 pb-2">
                     <figure>
                         <img
                         src="assets/article1.png"
@@ -366,7 +370,7 @@
                 </div>
 
                 <!-- card 2 -->
-                <div class="card bg-base-100 w-96 shadow-sm pt-7 pb-2">
+                <div class="card bg-base-100 lg:w-96 shadow-sm pt-7 pb-2">
                     <figure>
                         <img
                         src="assets/article2.png"
@@ -399,7 +403,7 @@
                 </div>
 
                 <!-- card 3 -->
-                <div class="card bg-base-100 w-96 shadow-sm pt-7 pb-2">
+                <div class="card bg-base-100 lg:w-96 shadow-sm pt-7 pb-2">
                     <figure>
                         <img
                         src="assets/article3.png"
@@ -429,6 +433,43 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Input field section -->
+        <section class="mt-4 bg-[url(assets/bg.jpg)] py-20">
+            <div>
+                <div class="flex w-40 mx-auto gap-4 bg-btn px-3 py-3 rounded-full">
+                    <i class="fa-solid fa-arrow-up rotate-90 text-sm"></i> 
+                    <p class="font-semibold">Let's Contact</p>
+                </div>
+                <div class="text-center my-3">
+                    <h1 class="text-2xl lg:text-4xl font-bold mb-4">Let’s Discuss Next Project</h1>
+                    <p class="text-sm">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+                </div>
+            </div>
+
+            <!-- input -->
+            <div class="flex flex-col md:flex-row lg:flex-row justify-center gap-5 mb-5 mt-8">
+                <input class="lg:w-96 bg-white py-2 border-none outline-none rounded-full p-4" placeholder="First Name*" type="text">
+                <input class="lg:w-96 bg-white py-2 border-none outline-none rounded-full p-4" placeholder="Last Name*" type="text">
+            </div>
+
+            <div class="flex flex-col md:flex-row lg:flex-row justify-center gap-5 ">
+                <input class="lg:w-96 bg-white py-2 border-none outline-none rounded-full p-4" placeholder="Phone Number*" type="text">
+                <input class="lg:w-96 bg-white py-2 border-none outline-none rounded-full p-4" placeholder="Email Number*" type="text">
+            </div>
+            <div class="flex justify-center mt-5">
+                <textarea class="bg-white border-none outline-none rounded-lg p-4 w-full md:w-[450px] lg:w-[790px]" placeholder="Write your message here" name="" id="" rows="5"></textarea>
+            </div>
+
+            <div class="flex items-center bg-[#ABEF5F] rounded-full px-22 md:px-38 lg:px-80 py-2 md:w-[450px] lg:w-[790px] mt-6 mx-auto">
+                <div>
+                    <a class="font-semibold">Book Consult</a>
+                </div>
+                <div class="bg-black h-6 w-6 rounded-full ml-3 flex items-center justify-center">
+                    <i class="fa-solid fa-arrow-up text-white rotate-45 text-sm"></i>
                 </div>
             </div>
         </section>
