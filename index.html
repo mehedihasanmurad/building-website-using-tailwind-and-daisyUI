@@ -9,9 +9,15 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- font awesome link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <style>
+        .bg-btn {
+            background-color: rgba(171, 239, 95, 0.5);
+        }
+    </style>
 </head>
 <body>
-    <header class="max-w-7xl mx-auto">
+    <header class="max-w-7xl mx-auto px-2">
         <nav>
             <div class="navbar my-5">
                 <div class="navbar-start">
@@ -80,6 +86,33 @@
                 </div>
             </div>
         </nav>
+
+        <!-- Banner Part -->
+        
+        <div class="mt-10">
+            <!-- image part  -->
+            <div class="mb-10">
+                <img class="w-96 mx-auto" src="assets/banner.png" alt="">
+            </div>
+            <!-- text part -->
+            <div class="text-center">
+                <div class="space-y-6">
+                    <h1 class="text-3xl lg:text-5xl font-bold">A barn house of this design has a <br> striking appearance</h1>
+                    <p class="lg:w-3/4 lg:mx-auto">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                    </p>
+                <div class="flex px-[110px] py-3 md:w-40 md:mx-auto md:px-4 md:py-3 lg:w-40 lg:mx-auto bg-btn lg:px-4 lg:py-3 rounded-full">
+                        <div>
+                            <a class="font-semibold">View Details</a>
+                        </div>
+                        <div class="bg-[#ABEF5F] h-6 w-6 rounded-full ml-3 flex items-center justify-center">
+                            <i class="fa-solid fa-arrow-up rotate-45 text-sm"></i>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+        
     </header>
 </body>
 </html>
