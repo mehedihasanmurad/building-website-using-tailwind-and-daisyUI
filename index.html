@@ -11,52 +11,75 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <header>
-        <!-- <nav>
-            <div class="navbar bg-base-100 shadow-sm">
+    <header class="max-w-7xl mx-auto">
+        <nav>
+            <div class="navbar my-5">
                 <div class="navbar-start">
-                    <a class="btn btn-ghost text-xl">daisyUI</a>
+                    <div class="flex items-center justify-center">
+                        <!-- logo part -->
+                        <div class="bg-[#ABEF5F] h-6 w-6 rounded-full mr-2 flex items-center justify-center mt-1">
+                            <i class="fa-solid fa-arrow-up rotate-45 text-sm"></i>
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-semibold">Rinterio</h1>
+                        </div>
+                    </div>
                 </div>
+
+                <!-- Navbar Part -->
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li>
-                        <details>
-                        <summary>Parent</summary>
-                        <ul class="p-2">
-                            <li><a>Submenu 1</a></li>
-                            <li><a>Submenu 2</a></li>
-                        </ul>
-                        </details>
-                    </li>
-                    <li><a>Item 3</a></li>
+                        <li><a class="font-semibold">Home</a></li>
+                        <li><a class="text-gray-400 font-semibold">Services</a></li>
+                        <li><a class="text-gray-400 font-semibold">Portfolio</a></li>
+                        <li><a class="text-gray-400 font-semibold">Blog</a></li>
+                        <li><a class="text-gray-400 font-semibold">Contact Us</a></li>
                     </ul>
                 </div>
+
+                
+
+                <!-- Button Part -->
                 <div class="navbar-end">
-                    <a class="btn">Button</a>
+                    <!-- icon part  -->
+                    <div class="flex gap-4 hidden md:flex lg:flex">
+                        <div class="h-8 w-8 bg-slate-100 rounded-full mr-2 flex items-center justify-center">
+                            <i class="fa-solid fa-magnifying-glass opacity-50"></i>
+                        </div>
+
+                        <div class="mr-6 h-8 w-8 bg-slate-100 rounded-full mr-2 flex items-center justify-center">
+                            <img class="w-4" src="assets/shopping-cart-01.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- button and icon  -->
+                    <div class="flex items-center hidden md:flex lg:flex bg-[#ABEF5F] rounded-full px-4 py-2">
+                        <div>
+                            <a class="font-semibold">Book Consult</a>
+                        </div>
+                        <div class="bg-black h-6 w-6 rounded-full ml-3 flex items-center justify-center">
+                            <i class="fa-solid fa-arrow-up text-white rotate-45 text-sm"></i>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- dropdown -->
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                        <i class="fa-solid fa-bars text-xl"></i>
                     </div>
                     <ul
                         tabindex="0"
                         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li><a>Item 1</a></li>
-                        <li>
-                        <a>Parent</a>
-                        <ul class="p-2">
-                            <li><a>Submenu 1</a></li>
-                            <li><a>Submenu 2</a></li>
-                        </ul>
-                        </li>
-                        <li><a>Item 3</a></li>
+                        <li><a class="font-semibold">Home</a></li>
+                        <li><a class="text-gray-400 font-semibold">Services</a></li>
+                        <li><a class="text-gray-400 font-semibold">Portfolio</a></li>
+                        <li><a class="text-gray-400 font-semibold">Blog</a></li>
+                        <li><a class="text-gray-400 font-semibold">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
-        </nav> -->
+        </nav>
     </header>
 </body>
 </html>
